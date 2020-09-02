@@ -2,7 +2,8 @@
   "name": "epaycotest-restservice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js","scripts": {
+  "main": "index.js",
+  "scripts": {
     "start": "node ./dist/index.js",
     "start:dev": "nodemon",
     "build": "tsc"
@@ -10,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "@types/express": "^4.17.8",
     "@types/node": "^14.6.3",
     "easy-soap-request": "^3.3.3",
