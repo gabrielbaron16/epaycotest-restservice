@@ -1,6 +1,6 @@
 import { Response, NextFunction } from 'express';
 
-export const SuccessHandler = (statusCode: number, message: string, res: Response, next: NextFunction, data: any) => {
+export const SuccessHandler = (statusCode: number, message: string, res: Response, _next: NextFunction, data: any) => {
   res.status(statusCode).send({
     status: 'success',
     statusCode,
